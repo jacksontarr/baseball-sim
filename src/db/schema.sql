@@ -4,8 +4,7 @@ CREATE TABLE teams(
     id              SERIAL PRIMARY KEY,
     loc             TEXT NOT NULL,
     nickname        TEXT NOT NULL,
-    season_wins     INTEGER DEFAULT 0,
-    season_losses   INTEGER DEFAULT 0,
-    total_wins      INTEGER DEFAULT 0,
-    total_losses    INTEGER DEFAULT 0,
+    wins            INTEGER DEFAULT 0,
+    losses          INTEGER DEFAULT 0,
+    games_played    INTEGER DEFAULT 0
 );
