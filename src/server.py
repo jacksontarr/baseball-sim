@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Resource, Api
 from api.management import *
-from db.utils import rebuild_tables
+from db.baseball_utils import rebuild_tables
 
 app = Flask(__name__)
 api = Api(app)

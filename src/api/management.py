@@ -1,7 +1,7 @@
 from flask_restful import Resource, reqparse, request
 from db.db_utils import *
 
-from db.utils import rebuild_tables
+from db.baseball_utils import rebuild_tables
 
 class Init(Resource):
     def post(self):
