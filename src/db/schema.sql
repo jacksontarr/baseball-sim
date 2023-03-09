@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS example;
+
+CREATE TABLE example(
+    id  SERIAL PRIMARY KEY,
+    foo TEXT NOT NULL
+);
